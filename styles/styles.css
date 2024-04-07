@@ -1,4 +1,12 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,500,500italic,400italic,300italic,100italic,700italic);@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css);@import url(https://use.fontawesome.com/releases/v5.11.2/css/all.css);@import url(https://use.fontawesome.com/releases/v5.11.2/css/v4-shims.css);button,input[type="button"],input[type="reset"],input[type="submit"] {
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,500,500italic,400italic,300italic,100italic,700italic);
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css);
+@import url(https://use.fontawesome.com/releases/v5.11.2/css/all.css);
+@import url(https://use.fontawesome.com/releases/v5.11.2/css/v4-shims.css);
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
   appearance: none;
   background-color: #477dca;
   border: 0;
@@ -19,17 +27,30 @@
   white-space: nowrap
 }
 
-button:hover,button:focus,input[type="button"]:hover,input[type="button"]:focus,input[type="reset"]:hover,input[type="reset"]:focus,input[type="submit"]:hover,input[type="submit"]:focus {
+button:hover,
+button:focus,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus {
   background-color: #3964a2;
   color: #fff
 }
 
-button:disabled,input[type="button"]:disabled,input[type="reset"]:disabled,input[type="submit"]:disabled {
+button:disabled,
+input[type="button"]:disabled,
+input[type="reset"]:disabled,
+input[type="submit"]:disabled {
   cursor: not-allowed;
   opacity: 0.5
 }
 
-button:disabled:hover,input[type="button"]:disabled:hover,input[type="reset"]:disabled:hover,input[type="submit"]:disabled:hover {
+button:disabled:hover,
+input[type="button"]:disabled:hover,
+input[type="reset"]:disabled:hover,
+input[type="submit"]:disabled:hover {
   background-color: #477dca
 }
 
@@ -40,7 +61,9 @@ fieldset {
   padding: 1.5rem
 }
 
-input,label,select {
+input,
+label,
+select {
   display: block;
   font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   font-size: 1rem
@@ -98,7 +121,9 @@ td {
   padding: 0.75rem 0
 }
 
-tr,td,th {
+tr,
+td,
+th {
   vertical-align: middle
 }
 
@@ -110,7 +135,8 @@ hr {
   margin: 1.5rem 0
 }
 
-img,picture {
+img,
+picture {
   margin: 0;
   max-width: 100%
 }
@@ -119,7 +145,9 @@ html {
   box-sizing: border-box
 }
 
-*,*::after,*::before {
+*,
+*::after,
+*::before {
   box-sizing: inherit
 }
 
@@ -183,7 +211,7 @@ body {
 
 @media print {
   .container {
-      margin-top: 20px
+    margin-top: 20px
   }
 }
 
@@ -201,7 +229,7 @@ body {
 
 @media print {
   .header-left {
-      margin-top: 0px
+    margin-top: 0px
   }
 }
 
@@ -212,71 +240,83 @@ body {
 
 @media print {
   a[href]:after {
-      content: none !important
+    content: none !important
   }
 
   img[src]:after {
-      content: none !important
+    content: none !important
   }
 
-  .col-sm-1,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11,.col-sm-12 {
-      float: left
+  .col-sm-1,
+  .col-sm-2,
+  .col-sm-3,
+  .col-sm-4,
+  .col-sm-5,
+  .col-sm-6,
+  .col-sm-7,
+  .col-sm-8,
+  .col-sm-9,
+  .col-sm-10,
+  .col-sm-11,
+  .col-sm-12 {
+    float: left
   }
 
   .col-sm-12 {
-      width: 100%
+    width: 100%
   }
 
   .col-sm-11 {
-      width: 91.66666667%
+    width: 91.66666667%
   }
 
   .col-sm-10 {
-      width: 83.33333333%
+    width: 83.33333333%
   }
 
   .col-sm-9 {
-      width: 75%
+    width: 75%
   }
 
   .col-sm-8 {
-      width: 66.66666667%
+    width: 66.66666667%
   }
 
   .col-sm-7 {
-      width: 58.33333333%
+    width: 58.33333333%
   }
 
   .col-sm-6 {
-      width: 50%
+    width: 50%
   }
 
   .col-sm-5 {
-      width: 41.66666667%
+    width: 41.66666667%
   }
 
   .col-sm-4 {
-      width: 33.33333333%
+    width: 33.33333333%
   }
 
   .col-sm-3 {
-      width: 25%
+    width: 25%
   }
 
   .col-sm-2 {
-      width: 16.66666667%
+    width: 16.66666667%
   }
 
   .col-sm-1 {
-      width: 8.33333333%
+    width: 8.33333333%
   }
 
   .col-print-12 {
-      width: 100%
+    width: 100%
   }
 
-  .no-print,.no-print * {
-      display: none !important
+  .no-print,
+  .no-print * {
+    display: none !important
   }
 }
 
@@ -366,11 +406,16 @@ body {
 
 @media print {
   body {
-      font-size: 0.9rem
+    font-size: 0.9rem
   }
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: Roboto, sans-serif;
   font-size: 1rem;
   line-height: 1.2;
@@ -386,7 +431,9 @@ a {
   transition: color 150ms ease
 }
 
-a:active,a:focus,a:hover {
+a:active,
+a:focus,
+a:hover {
   color: #355e98
 }
 
@@ -412,7 +459,7 @@ h3 {
 
 @media print {
   h3 {
-      margin-bottom: 20px
+    margin-bottom: 20px
   }
 }
 
@@ -422,7 +469,8 @@ h4 {
   margin-bottom: 3px
 }
 
-p,ul {
+p,
+ul {
   font-size: 1.6rem;
   text-align: justify
 }
@@ -437,8 +485,8 @@ mark {
   color: #fff;
   background-color: #333;
   border-radius: 3px;
-  -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,0.25);
-  box-shadow: inset 0 -1px 0 rgba(0,0,0,0.25)
+  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.25)
 }
 
 .dark {
@@ -456,7 +504,7 @@ mark {
 }
 
 ul.icons a:hover {
-  background: rgba(0,0,0,0.025)
+  background: rgba(0, 0, 0, 0.025)
 }
 
 ul.icons li {
@@ -495,7 +543,7 @@ ul.icons a {
 
 @media screen and (max-width: 768px) {
   .icons {
-      text-align:center
+    text-align: center
   }
 }
 
@@ -519,15 +567,15 @@ ul.icons a {
 
 @media screen and (max-width: 767px) {
   .header-container div {
-      text-align:center
+    text-align: center
   }
 
   .header-right p {
-      text-align: center
+    text-align: center
   }
 
   .header-left {
-      margin-top: 0px
+    margin-top: 0px
   }
 }
 
@@ -582,11 +630,11 @@ ul.icons a {
 
 @media screen and (max-width: 767px) {
   .layout .details {
-      text-align:center !important
+    text-align: center !important
   }
 
   .layout .details p {
-      text-align: center !important
+    text-align: center !important
   }
 }
 
@@ -611,7 +659,7 @@ ul.icons a {
 
 @media print {
   .layout .details h4 {
-      margin-bottom: 0.2rem
+    margin-bottom: 0.2rem
   }
 }
 
@@ -623,25 +671,36 @@ ul.icons a {
   flex-direction: row-reverse
 }
 
-.layout-right .details,.layout-top-right .details {
+.layout-right .details,
+.layout-top-right .details {
   text-align: right
 }
 
 @media screen and (max-width: 767px) {
-  .layout-left,.layout-right {
-      flex-direction:column
+
+  .layout-left,
+  .layout-right {
+    flex-direction: column
   }
 }
 
-.layout-left .details,.layout-right .details {
+.layout-left .details,
+.layout-right .details {
   margin-bottom: 2rem
 }
 
-.layout-top-middle,.layout-top,.layout-top-right {
+.layout-top-middle,
+.layout-top,
+.layout-top-right {
   flex-direction: column
 }
 
-.layout-top-middle .details,.layout-top-middle .content,.layout-top .details,.layout-top .content,.layout-top-right .details,.layout-top-right .content {
+.layout-top-middle .details,
+.layout-top-middle .content,
+.layout-top .details,
+.layout-top .content,
+.layout-top-right .details,
+.layout-top-right .content {
   width: 100%
 }
 
@@ -691,8 +750,8 @@ p.quote {
 
 @media print {
   p.quote {
-      text-align: left;
-      padding: 0rem 1rem;
-      margin-top: 1rem
+    text-align: left;
+    padding: 0rem 1rem;
+    margin-top: 1rem
   }
 }
